@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="SmokeTest" />
+		</run>
+	</groups>   
+	<test name="Test">
+		<classes>
+		<!--	<class name="demo.TestngBasics.TestngBasics" />
+			<class name="demo.TestngBasics.basics" /> 
+			<class name="demo.TestngBasics.car" /> -->
+			<class name="demo.TestngBasics.Annotations" />
+			<!--	<methods>  
+           <include name = "car.*"/>  
+           </methods> -->
+		</classes>
+	</test>
+</suite>
